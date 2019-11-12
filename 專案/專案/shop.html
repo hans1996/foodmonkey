@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel=stylesheet type="text/css" href="./css/style.css">
+    <title>店家訂單內容</title>
+	<link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC|Press+Start+2P&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+
+    <header class="header">
+        <div style ="height:50;">
+            <a id="logout"  href="#" onclick="logout()">登出 </a>
+            <a id="username"  style ="float:right;">UserName：</a>
+        </div>
+		<hr/>
+    </header>
+	
+
+    <div id="content" style="width:1400px;">
+		<table id='table1' border=2 class="table table-striped" style="color:white;" >
+		 <thead class="thead-dark"><tr class="table-dark">
+		 <th scope="col">編號	</th>
+		 <th scope="col">品項	</th>
+		 <th scope="col">數量</th>
+		 </tr> </thead>
+		</table>
+    </div>
+
+	<script type="text/javascript" src="./js/jQuery-3.3.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="./js/header.js"></script>
+	<script type="text/javascript" src="./js/shop.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <link rel=stylesheet type="text/css" href="./css/style.css">
+    <title>購物車</title>
+    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   
+</head>
+
+<body>
+
+    <header class="header">
+        <div style ="height:50">
+            <a id="logout" href="#" onclick="logout()">登出&emsp; </a>
+            <a id="vote" href="context.html"> 返回主選單 </a>
+            <a id="username" " style ="float:right;">UserName：</a>
+        </div>
+		<hr/>
+    </header>
+	
+</div style="width:900;">
+
+    <div > 地址：
+        <input type="text" id="address" name="title" />
+    </div>
+
+    <div > 購買店家
+			<select name="店家" id="sel" >
+				　<option value="0">請選擇</option>
+			</select>
+			
+			<select name="選項" id="sel2">
+			</select>
+			
+			<select name="選項" id="sel3">
+			</select>
+			<select name="數量" id="sel4">
+				　<option value=1>1</option>
+				　<option value=2>2</option>
+				　<option value=3>3</option>
+				　<option value=4>4</option>
+			</select>
+    
+
+    <button onclick="add()"> 加入</button>
+    <button onclick="removeList()"> 清空</button>
+	</div>
+	
+	
+	<table id="table1" border=2 class="table" style="color:white;">
+		 <thead class="thead-dark"><tr>
+			 <th scope="col">店家</th>
+			 <th scope="col">項目</th>
+			 <th scope="col">價錢</th>
+			 <th scope="col">數量</th>
+			 <th scope="col">總價</th>
+			 </tr> </thead>
+    </table>
+	
+	<button onclick="add2()"> 確認送出</button>
+	 <script type="text/javascript" src="./js/jQuery-3.3.1.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+	 <script type="text/javascript" src='./js/header.js'></script>
+	 <script type="text/javascript" src="./js/store.js"> </script>
+</body>
+
+
+</html>

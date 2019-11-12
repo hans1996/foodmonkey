@@ -1,0 +1,121 @@
+2019-11-12 00:00:01,039 INFO 4520 [egg-logrotator] app logger reload: got log-reload message
+2019-11-12 00:04:11,100 INFO 8040 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\user.LAPTOP-N880RBTF\\Desktop\\programming\\project\\Group18\\logs\\Group18","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Group18-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-12 00:04:11,238 INFO 8040 [egg-multipart] stream mode enable
+2019-11-12 00:04:11,317 INFO 8040 [egg-oracle] connecting (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 140.117.69.58)(PORT = 1521))(CONNECT_DATA =(SID= ORCL)))
+2019-11-12 00:04:11,881 INFO 8040 [egg-static] starting static serve /public/ -> C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\public
+2019-11-12 00:04:11,888 INFO 8040 [egg-security] use methodnoallow middleware
+2019-11-12 00:04:11,891 INFO 8040 [egg-security] use noopen middleware
+2019-11-12 00:04:11,895 INFO 8040 [egg-security] use nosniff middleware
+2019-11-12 00:04:11,897 INFO 8040 [egg-security] use xssProtection middleware
+2019-11-12 00:04:11,899 INFO 8040 [egg-security] use xframe middleware
+2019-11-12 00:04:11,902 INFO 8040 [egg-security] use dta middleware
+2019-11-12 00:04:11,902 INFO 8040 [egg-security] compose 6 middlewares into one security middleware
+2019-11-12 00:04:11,968 INFO 8040 [egg:core] dump config after load, 15ms
+2019-11-12 00:04:11,988 INFO 8040 [egg-watcher:application] watcher start success
+2019-11-12 00:04:12,064 INFO 8040 [egg-oracle] instance[0] status OK, currentTime: 2019-11-12 00:04:12
+2019-11-12 00:04:12,100 INFO 8040 [egg:core] dump config after ready, 31ms
+2019-11-12 00:08:31,377 INFO 16092 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\user.LAPTOP-N880RBTF\\Desktop\\programming\\project\\Group18\\logs\\Group18","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Group18-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-12 00:08:31,499 INFO 16092 [egg-multipart] stream mode enable
+2019-11-12 00:08:31,565 INFO 16092 [egg-oracle] connecting (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 140.117.69.58)(PORT = 1521))(CONNECT_DATA =(SID= ORCL)))
+2019-11-12 00:08:32,058 INFO 16092 [egg-static] starting static serve /public/ -> C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\public
+2019-11-12 00:08:32,067 INFO 16092 [egg-security] use methodnoallow middleware
+2019-11-12 00:08:32,070 INFO 16092 [egg-security] use noopen middleware
+2019-11-12 00:08:32,073 INFO 16092 [egg-security] use nosniff middleware
+2019-11-12 00:08:32,076 INFO 16092 [egg-security] use xssProtection middleware
+2019-11-12 00:08:32,079 INFO 16092 [egg-security] use xframe middleware
+2019-11-12 00:08:32,082 INFO 16092 [egg-security] use dta middleware
+2019-11-12 00:08:32,082 INFO 16092 [egg-security] compose 6 middlewares into one security middleware
+2019-11-12 00:08:32,195 INFO 16092 [egg:core] dump config after load, 25ms
+2019-11-12 00:08:32,232 INFO 16092 [egg-watcher:application] watcher start success
+2019-11-12 00:08:32,304 INFO 16092 [egg-oracle] instance[0] status OK, currentTime: 2019-11-12 00:08:32
+2019-11-12 00:08:32,355 INFO 16092 [egg:core] dump config after ready, 41ms
+2019-11-12 00:12:16,042 INFO 4556 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\user.LAPTOP-N880RBTF\\Desktop\\programming\\project\\Group18\\logs\\Group18","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Group18-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-12 00:12:16,115 INFO 4556 [egg-multipart] stream mode enable
+2019-11-12 00:12:16,171 INFO 4556 [egg-oracle] connecting (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 140.117.69.58)(PORT = 1521))(CONNECT_DATA =(SID= ORCL)))
+2019-11-12 00:12:16,549 INFO 4556 [egg-static] starting static serve /public/ -> C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\public
+2019-11-12 00:12:16,555 INFO 4556 [egg-security] use methodnoallow middleware
+2019-11-12 00:12:16,557 INFO 4556 [egg-security] use noopen middleware
+2019-11-12 00:12:16,560 INFO 4556 [egg-security] use nosniff middleware
+2019-11-12 00:12:16,562 INFO 4556 [egg-security] use xssProtection middleware
+2019-11-12 00:12:16,567 INFO 4556 [egg-security] use xframe middleware
+2019-11-12 00:12:16,569 INFO 4556 [egg-security] use dta middleware
+2019-11-12 00:12:16,569 INFO 4556 [egg-security] compose 6 middlewares into one security middleware
+2019-11-12 00:12:16,633 INFO 4556 [egg:core] dump config after load, 15ms
+2019-11-12 00:12:16,651 INFO 4556 [egg-watcher:application] watcher start success
+2019-11-12 00:12:16,730 INFO 4556 [egg-oracle] instance[0] status OK, currentTime: 2019-11-12 00:12:16
+2019-11-12 00:12:16,753 INFO 4556 [egg:core] dump config after ready, 20ms
+2019-11-12 00:12:20,980 INFO 2264 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\user.LAPTOP-N880RBTF\\Desktop\\programming\\project\\Group18\\logs\\Group18","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Group18-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-12 00:12:21,083 INFO 2264 [egg-multipart] stream mode enable
+2019-11-12 00:12:21,162 INFO 2264 [egg-oracle] connecting (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 140.117.69.58)(PORT = 1521))(CONNECT_DATA =(SID= ORCL)))
+2019-11-12 00:12:21,536 INFO 2264 [egg-static] starting static serve /public/ -> C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\public
+2019-11-12 00:12:21,542 INFO 2264 [egg-security] use methodnoallow middleware
+2019-11-12 00:12:21,545 INFO 2264 [egg-security] use noopen middleware
+2019-11-12 00:12:21,548 INFO 2264 [egg-security] use nosniff middleware
+2019-11-12 00:12:21,550 INFO 2264 [egg-security] use xssProtection middleware
+2019-11-12 00:12:21,553 INFO 2264 [egg-security] use xframe middleware
+2019-11-12 00:12:21,555 INFO 2264 [egg-security] use dta middleware
+2019-11-12 00:12:21,555 INFO 2264 [egg-security] compose 6 middlewares into one security middleware
+2019-11-12 00:12:21,627 INFO 2264 [egg:core] dump config after load, 16ms
+2019-11-12 00:12:21,650 INFO 2264 [egg-watcher:application] watcher start success
+2019-11-12 00:12:21,719 INFO 2264 [egg-oracle] instance[0] status OK, currentTime: 2019-11-12 00:12:21
+2019-11-12 00:12:21,741 INFO 2264 [egg:core] dump config after ready, 18ms
+2019-11-12 00:15:55,240 INFO 16304 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\user.LAPTOP-N880RBTF\\Desktop\\programming\\project\\Group18\\logs\\Group18","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Group18-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-12 00:15:55,314 INFO 16304 [egg-multipart] stream mode enable
+2019-11-12 00:15:55,368 INFO 16304 [egg-oracle] connecting (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 140.117.69.58)(PORT = 1521))(CONNECT_DATA =(SID= ORCL)))
+2019-11-12 00:15:55,692 INFO 16304 [egg-static] starting static serve /public/ -> C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\public
+2019-11-12 00:15:55,700 INFO 16304 [egg-security] use methodnoallow middleware
+2019-11-12 00:15:55,702 INFO 16304 [egg-security] use noopen middleware
+2019-11-12 00:15:55,706 INFO 16304 [egg-security] use nosniff middleware
+2019-11-12 00:15:55,709 INFO 16304 [egg-security] use xssProtection middleware
+2019-11-12 00:15:55,712 INFO 16304 [egg-security] use xframe middleware
+2019-11-12 00:15:55,715 INFO 16304 [egg-security] use dta middleware
+2019-11-12 00:15:55,715 INFO 16304 [egg-security] compose 6 middlewares into one security middleware
+2019-11-12 00:15:55,780 INFO 16304 [egg:core] dump config after load, 16ms
+2019-11-12 00:15:55,799 INFO 16304 [egg-watcher:application] watcher start success
+2019-11-12 00:15:55,907 INFO 16304 [egg-oracle] instance[0] status OK, currentTime: 2019-11-12 00:15:55
+2019-11-12 00:15:55,934 INFO 16304 [egg:core] dump config after ready, 23ms
+2019-11-12 00:35:36,528 INFO 13156 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\user.LAPTOP-N880RBTF\\Desktop\\programming\\project\\Group18\\logs\\Group18","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Group18-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-12 00:35:36,600 INFO 13156 [egg-multipart] stream mode enable
+2019-11-12 00:35:36,653 INFO 13156 [egg-oracle] connecting (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 140.117.69.58)(PORT = 1521))(CONNECT_DATA =(SID= ORCL)))
+2019-11-12 00:35:36,935 INFO 13156 [egg-static] starting static serve /public/ -> C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\public
+2019-11-12 00:35:36,940 INFO 13156 [egg-security] use methodnoallow middleware
+2019-11-12 00:35:36,942 INFO 13156 [egg-security] use noopen middleware
+2019-11-12 00:35:36,945 INFO 13156 [egg-security] use nosniff middleware
+2019-11-12 00:35:36,947 INFO 13156 [egg-security] use xssProtection middleware
+2019-11-12 00:35:36,949 INFO 13156 [egg-security] use xframe middleware
+2019-11-12 00:35:36,951 INFO 13156 [egg-security] use dta middleware
+2019-11-12 00:35:36,952 INFO 13156 [egg-security] compose 6 middlewares into one security middleware
+2019-11-12 00:35:37,011 INFO 13156 [egg:core] dump config after load, 13ms
+2019-11-12 00:35:37,028 INFO 13156 [egg-watcher:application] watcher start success
+2019-11-12 00:35:37,128 INFO 13156 [egg-oracle] instance[0] status OK, currentTime: 2019-11-12 00:35:37
+2019-11-12 00:35:37,160 INFO 13156 [egg:core] dump config after ready, 28ms
+2019-11-12 00:36:47,504 INFO 2932 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\user.LAPTOP-N880RBTF\\Desktop\\programming\\project\\Group18\\logs\\Group18","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Group18-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-12 00:36:47,584 INFO 2932 [egg-multipart] stream mode enable
+2019-11-12 00:36:47,639 INFO 2932 [egg-oracle] connecting (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 140.117.69.58)(PORT = 1521))(CONNECT_DATA =(SID= ORCL)))
+2019-11-12 00:36:47,990 INFO 2932 [egg-static] starting static serve /public/ -> C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\public
+2019-11-12 00:36:47,996 INFO 2932 [egg-security] use methodnoallow middleware
+2019-11-12 00:36:47,999 INFO 2932 [egg-security] use noopen middleware
+2019-11-12 00:36:48,001 INFO 2932 [egg-security] use nosniff middleware
+2019-11-12 00:36:48,003 INFO 2932 [egg-security] use xssProtection middleware
+2019-11-12 00:36:48,005 INFO 2932 [egg-security] use xframe middleware
+2019-11-12 00:36:48,007 INFO 2932 [egg-security] use dta middleware
+2019-11-12 00:36:48,008 INFO 2932 [egg-security] compose 6 middlewares into one security middleware
+2019-11-12 00:36:48,071 INFO 2932 [egg:core] dump config after load, 15ms
+2019-11-12 00:36:48,091 INFO 2932 [egg-watcher:application] watcher start success
+2019-11-12 00:36:48,165 INFO 2932 [egg-oracle] instance[0] status OK, currentTime: 2019-11-12 00:36:48
+2019-11-12 00:36:48,197 INFO 2932 [egg:core] dump config after ready, 28ms
+2019-11-12 16:53:05,972 INFO 8084 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\user.LAPTOP-N880RBTF\\Desktop\\programming\\project\\Group18\\logs\\Group18","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"Group18-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-11-12 16:53:06,064 INFO 8084 [egg-multipart] stream mode enable
+2019-11-12 16:53:06,232 INFO 8084 [egg-oracle] connecting (DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = 140.117.69.58)(PORT = 1521))(CONNECT_DATA =(SID= ORCL)))
+2019-11-12 16:53:16,622 INFO 8084 [egg-static] starting static serve /public/ -> C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\public
+2019-11-12 16:53:16,630 INFO 8084 [egg-security] use methodnoallow middleware
+2019-11-12 16:53:16,630 INFO 8084 [egg-security] use noopen middleware
+2019-11-12 16:53:16,634 INFO 8084 [egg-security] use nosniff middleware
+2019-11-12 16:53:16,634 INFO 8084 [egg-security] use xssProtection middleware
+2019-11-12 16:53:16,638 INFO 8084 [egg-security] use xframe middleware
+2019-11-12 16:53:16,638 INFO 8084 [egg-security] use dta middleware
+2019-11-12 16:53:16,638 INFO 8084 [egg-security] compose 6 middlewares into one security middleware
+2019-11-12 16:53:16,726 INFO 8084 [egg:core] dump config after load, 20ms
+2019-11-12 16:53:16,774 INFO 8084 [egg-watcher:application] watcher start success
+2019-11-12 16:53:16,846 INFO 8084 [egg-oracle] instance[0] status OK, currentTime: 2019-11-12 16:53:16
+2019-11-12 16:53:16,878 INFO 8084 [egg:core] dump config after ready, 24ms

@@ -1,0 +1,565 @@
+2019-11-08 10:57:48,172 ERROR 13740 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "C:\\Users\\user.LAPTOP-N880RBTF\\Desktop\\programming\\project\\Group18\\app\\controller\\user"
+name: "EPERMError"
+pid: 13740
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 11:15:00,344 ERROR 4564 [-/::1/-/13ms GET /api/v1/staff] nodejs.TypeError: ctx.service.staff.getOne is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:6:39)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 4564
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 11:15:21,013 ERROR 9584 nodejs.TypeError: Cannot read property 'getConnection' of undefined
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:5:46)
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:6:39)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+
+pid: 9584
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 11:16:16,006 ERROR 13740 nodejs.TypeError: Cannot read property 'getConnection' of undefined
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:5:46)
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:6:39)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+
+pid: 13740
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 11:17:20,448 ERROR 2468 nodejs.TypeError: Cannot read property 'getConnection' of undefined
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:5:46)
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:6:39)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+
+pid: 2468
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 11:22:03,050 ERROR 10660 nodejs.ReferenceError: connnection is not defined
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:6:20)
+
+pid: 10660
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 11:22:41,267 ERROR 12292 [-/::1/-/13ms GET /api/v1/staff] nodejs.ReferenceError: connnection is not defined
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:6:20)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:6:21)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 12292
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 11:25:14,330 ERROR 8560 [-/::1/-/10ms GET /api/v1/staff] nodejs.ReferenceError: connnection is not defined
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:6:20)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:6:21)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 8560
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:04:20,653 ERROR 10632 [-/::1/-/24ms POST /api/v1/staff] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 79
+pid: 10632
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:09:30,651 ERROR 10632 [-/::1/-/241ms POST /api/v1/staff] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 79
+pid: 10632
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:10:08,520 ERROR 1968 [-/::1/-/32ms POST /api/v1/staff] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 79
+pid: 1968
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:10:54,924 ERROR 3348 [-/::1/-/31ms POST /api/v1/staff] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 87
+pid: 3348
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:11:55,297 ERROR 7228 [-/::1/-/28ms POST /api/v1/staff] nodejs.TypeError: Cannot read property '0' of undefined
+    at StaffService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:21:28)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\postStaff.js:4:24)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 7228
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:14:42,317 ERROR 11736 [-/::1/-/59ms POST /api/v1/staff] nodejs.TypeError: Cannot destructure property `account` of 'undefined' or 'null'.
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\postStaff.js:3:15)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 11736
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:35:57,669 ERROR 6724 [-/::1/-/205ms DELETE /api/v1/staff?account=test] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 42
+pid: 6724
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:46:10,256 ERROR 8564 [-/::1/-/12ms DELETE /api/v1/staff?account=test] nodejs.Error: NJS-044: named JSON object is not expected in this context
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at StaffService.deleteOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:29:37)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\deleteStaff.js:4:24)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 8564
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:46:28,204 ERROR 8564 [-/::1/-/3ms DELETE /api/v1/staff?account=test] nodejs.Error: NJS-044: named JSON object is not expected in this context
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at StaffService.deleteOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:29:37)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\deleteStaff.js:4:24)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 8564
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:46:30,317 ERROR 8564 [-/::1/-/237ms DELETE /api/v1/staff?account=test] nodejs.Error: NJS-044: named JSON object is not expected in this context
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at StaffService.deleteOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:29:37)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\deleteStaff.js:4:24)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 8564
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:47:14,578 ERROR 8396 [-/::1/-/34ms DELETE /api/v1/staff?account=test] nodejs.Error: ORA-00904: "TEST": 無效的 ID
+Error: ORA-00904: "TEST": 無效的 ID
+errorNum: 904
+offset: 34
+pid: 8396
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:52:10,665 ERROR 4884 [-/::1/-/215ms POST /api/v1/staff] nodejs.Error: ORA-00926: 遺漏 VALUES 關鍵字
+Error: ORA-00926: 遺漏 VALUES 關鍵字
+errorNum: 926
+offset: 17
+pid: 4884
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:52:36,891 ERROR 4884 [-/::1/-/185ms POST /api/v1/staff] nodejs.Error: ORA-00926: 遺漏 VALUES 關鍵字
+Error: ORA-00926: 遺漏 VALUES 關鍵字
+errorNum: 926
+offset: 17
+pid: 4884
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:53:41,125 ERROR 4884 [-/::1/-/60003ms POST /api/v1/staff] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 4884
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:53:44,091 ERROR 4884 [-/undefined/-/55016ms POST /api/v1/staff] nodejs.Error: ORA-00926: 遺漏 VALUES 關鍵字
+Error: ORA-00926: 遺漏 VALUES 關鍵字
+errorNum: 926
+offset: 17
+headerSent: true
+pid: 4884
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:53:44,233 ERROR 4884 [-/::1/-/48544ms POST /api/v1/staff] nodejs.Error: ORA-00926: 遺漏 VALUES 關鍵字
+Error: ORA-00926: 遺漏 VALUES 關鍵字
+errorNum: 926
+offset: 17
+pid: 4884
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:54:50,015 ERROR 4884 [-/undefined/-/60002ms POST /api/v1/staff] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 4884
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:55:04,758 ERROR 4884 [-/undefined/-/60001ms POST /api/v1/staff] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 4884
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:55:08,403 ERROR 4884 [-/undefined/-/60001ms DELETE /api/v1/staff?account=test] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 4884
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:55:42,483 ERROR 4884 [-/undefined/-/60000ms DELETE /api/v1/staff?account=test] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 4884
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:55:45,536 ERROR 4884 [-/undefined/-/60002ms POST /api/v1/staff] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 4884
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 12:57:06,991 ERROR 4884 [-/::1/-/60002ms POST /api/v1/staff] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+
+pid: 4884
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:00:23,481 ERROR 8128 [-/::1/-/74ms POST /api/v1/staff] nodejs.Error: ORA-00926: 遺漏 VALUES 關鍵字
+Error: ORA-00926: 遺漏 VALUES 關鍵字
+errorNum: 926
+offset: 17
+pid: 8128
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:01:06,085 ERROR 2676 [-/::1/-/33ms DELETE /api/v1/staff?account=test] nodejs.Error: ORA-00904: "TEST": 無效的 ID
+Error: ORA-00904: "TEST": 無效的 ID
+errorNum: 904
+offset: 34
+pid: 2676
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:03:56,642 ERROR 11956 [-/::1/-/44ms POST /api/v1/staff] nodejs.TypeError: connection.insertOne is not a function
+    at StaffService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:21:22)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\postStaff.js:5:24)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 11956
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:10:27,492 ERROR 7052 [-/::1/-/71ms POST /api/v1/staff] nodejs.Error: ORA-00926: 遺漏 VALUES 關鍵字
+Error: ORA-00926: 遺漏 VALUES 關鍵字
+errorNum: 926
+offset: 17
+pid: 7052
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:11:02,984 ERROR 4776 [-/::1/-/64ms POST /api/v1/staff] nodejs.Error: ORA-00926: 遺漏 VALUES 關鍵字
+Error: ORA-00926: 遺漏 VALUES 關鍵字
+errorNum: 926
+offset: 17
+pid: 4776
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:11:15,063 ERROR 11564 [-/::1/-/90ms POST /api/v1/staff] nodejs.Error: ORA-00926: 遺漏 VALUES 關鍵字
+Error: ORA-00926: 遺漏 VALUES 關鍵字
+errorNum: 926
+offset: 17
+pid: 11564
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:23:54,230 ERROR 8704 nodejs.TypeError: Assignment to constant variable.
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:25:20
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 8704
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:26:15,750 ERROR 8364 [-/::1/-/57ms POST /api/v1/staff] nodejs.ReferenceError: oracledb is not defined
+    at StaffService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:15:5)
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\postStaff.js:5:48)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+
+pid: 8364
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:26:47,141 ERROR 5536 [-/::1/-/54ms POST /api/v1/staff] nodejs.ReferenceError: config is not defined
+    at StaffService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:17:9)
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\postStaff.js:5:48)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+
+pid: 5536
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:27:15,926 ERROR 1764 nodejs.ReferenceError: doRelease is not defined (uncaughtException throw 1 times on pid:1764)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:30:17
+    at Connection.custExecuteCb (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:105:7)
+
+pid: 1764
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:30:18,653 ERROR 11336 nodejs.ReferenceError: doRelease is not defined (uncaughtException throw 1 times on pid:11336)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:30:17
+    at Connection.custExecuteCb (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:105:7)
+
+pid: 11336
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:31:03,547 ERROR 13644 nodejs.ReferenceError: doRelease is not defined (uncaughtException throw 1 times on pid:13644)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:30:17
+    at Connection.custExecuteCb (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:105:7)
+
+pid: 13644
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:33:33,880 ERROR 9744 [-/::1/-/61ms POST /api/v1/staff] nodejs.Error: ORA-00926: 遺漏 VALUES 關鍵字
+Error: ORA-00926: 遺漏 VALUES 關鍵字
+errorNum: 926
+offset: 17
+pid: 9744
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:34:04,341 ERROR 4548 [-/::1/-/84ms POST /api/v1/staff] nodejs.Error: ORA-00926: 遺漏 VALUES 關鍵字
+Error: ORA-00926: 遺漏 VALUES 關鍵字
+errorNum: 926
+offset: 17
+pid: 4548
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:40:43,679 ERROR 8008 [-/::1/-/60ms POST /api/v1/staff] nodejs.Error: NJS-044: named JSON object is not expected in this context
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at StaffService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:41:37)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\postStaff.js:5:24)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 8008
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:43:29,888 ERROR 14680 nodejs.ReferenceError: doRelease is not defined (uncaughtException throw 1 times on pid:14680)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:30:17
+    at Connection.custExecuteCb (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:105:7)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:163:19)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:25:22
+    at OracleDb.<anonymous> (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\oracledb.js:279:7)
+
+pid: 14680
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:53:36,240 ERROR 6236 [-/::1/-/48ms POST /api/v1/staff] nodejs.ReferenceError: result is not defined
+    at StaffService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:45:5)
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\postStaff.js:5:48)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+
+pid: 6236
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:53:36,451 ERROR 6236 nodejs.ReferenceError: doRelease is not defined (uncaughtException throw 1 times on pid:6236)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:30:17
+    at Connection.custExecuteCb (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:105:7)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:163:19)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:25:22
+    at OracleDb.<anonymous> (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\oracledb.js:279:7)
+
+pid: 6236
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 13:54:02,870 ERROR 14484 nodejs.ReferenceError: doRelease is not defined (uncaughtException throw 1 times on pid:14484)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:30:17
+    at Connection.custExecuteCb (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:105:7)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:163:19)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staff.js:25:22
+    at OracleDb.<anonymous> (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\oracledb.js:279:7)
+
+pid: 14484
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 14:09:05,395 ERROR 13412 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13412
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 14:10:17,961 ERROR 5232 [-/::1/-/31ms GET /api/v1/staff?account=tttt&password=test] nodejs.Error: ORA-00904: "TEST": 無效的 ID
+Error: ORA-00904: "TEST": 無效的 ID
+errorNum: 904
+offset: 54
+pid: 5232
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 14:27:14,965 ERROR 13412 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13412
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 18:32:25,443 ERROR 14876 [-/::1/-/10ms GET /api/v1/order] nodejs.TypeError: ctx.service.orders.findOne is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\order\getOrder.js:5:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 14876
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 18:32:33,964 ERROR 14876 [-/::1/-/1ms GET /api/v1/orders] nodejs.TypeError: ctx.service.orders.findOne is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\order\getOrders.js:5:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 14876
+hostname: LAPTOP-N880RBTF
+
+2019-11-08 18:53:37,885 ERROR 13412 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13412
+hostname: LAPTOP-N880RBTF
+

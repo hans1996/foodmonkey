@@ -1,0 +1,526 @@
+2019-11-09 12:43:12,628 ERROR 13412 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13412
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 12:53:19,800 ERROR 13412 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13412
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 14:43:30,406 ERROR 2044 [-/::1/-/154ms GET /api/v1/order?shop=A&name=asd.] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 14
+pid: 2044
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 14:43:35,683 ERROR 2044 [-/::1/-/79ms GET /api/v1/order?shop=A&name=asd.] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 14
+pid: 2044
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 14:45:53,824 ERROR 2044 [-/::1/-/130ms GET /api/v1/staff?account=tttt&password=weqweqwe.] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 14
+pid: 2044
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 14:54:45,015 ERROR 13700 [-/::1/-/151ms GET /api/v1/staff?account=tttt&password=weqweqwe.] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 14
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 14:54:59,905 ERROR 13700 [-/::1/-/74ms GET /api/v1/order?shop=A&name=asd.] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 14
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 14:59:45,861 ERROR 13700 [-/::1/-/150ms GET /api/v1/order?shop=A&name=asd.] nodejs.Error: ORA-00904: "SHOP": 無效的 ID
+Error: ORA-00904: "SHOP": 無效的 ID
+errorNum: 904
+offset: 27
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:00:11,755 ERROR 13700 [-/::1/-/97ms GET /api/v1/orders?shop=A.] nodejs.Error: ORA-00904: "SHOP": 無效的 ID
+Error: ORA-00904: "SHOP": 無效的 ID
+errorNum: 904
+offset: 27
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:02:04,302 ERROR 13700 [-/::1/-/60004ms GET /api/v1/orders?shop=A.] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:02:33,016 ERROR 13700 [-/undefined/-/60003ms GET /api/v1/order?shop=A&name=asd.] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:04:04,469 ERROR 13700 [-/undefined/-/60002ms GET /api/v1/order?shop=milkshop&name=%E6%B1%BA%E6%98%8E%E5%A4%A7%E9%BA%A5] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:04:36,607 ERROR 13700 [-/undefined/-/60001ms GET /api/v1/orders?shop=milkshop] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:06:27,857 ERROR 13700 [-/undefined/-/60003ms GET /api/v1/orders?shop=milkshop&name=%E7%8F%8D%E7%8F%A0%E7%B4%85%E8%8C%B6%E6%8B%BF%E9%90%B5&introduce=introduce&price=price] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:06:41,025 ERROR 13700 [-/::1/-/60001ms GET /api/v1/orders?shop=milkshop&name=%E7%8F%8D%E7%8F%A0%E7%B4%85%E8%8C%B6%E6%8B%BF%E9%90%B5&introduce=introduce&price=65] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:15:38,602 ERROR 13700 [-/undefined/-/60002ms GET /api/v1/orders?shop=milkshop&name=%E7%8F%8D%E7%8F%A0%E7%B4%85%E8%8C%B6%E6%8B%BF%E9%90%B5&introduce=introduce&price=65] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:21:13,772 ERROR 13700 [-/undefined/-/60000ms GET /api/v1/order?shop=milkshop&name=%E6%B1%BA%E6%98%8E%E5%A4%A7%E9%BA%A5] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:21:19,218 ERROR 13700 [-/undefined/-/60001ms GET /api/v1/order?shop=milkshop] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:25:58,333 ERROR 13700 [-/undefined/-/60002ms GET /api/v1/order] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:26:08,114 ERROR 13700 [-/::1/-/60006ms GET /api/v1/order?shop=milkshop] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:26:40,571 ERROR 13700 [-/undefined/-/60000ms GET /api/v1/orders?shop=milkshop] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:26:49,033 ERROR 13700 [-/::1/-/60002ms GET /api/v1/orders] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:31:55,552 ERROR 13700 [-/undefined/-/60002ms GET /api/v1/staff?account=tttt&password=weqweqwe.] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 13700
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 15:38:55,188 ERROR 3200 [-/::1/-/13ms GET /api/v1/staff?account=delivery1] nodejs.TypeError: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at Hmac.update (internal/crypto/hash.js:70:11)
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staffs.js:12:8)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:5:20)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:16:45,033 ERROR 3200 [-/::1/-/11ms GET /api/v1/orders?shop=%27A%27] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 34
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:17:16,260 ERROR 3200 [-/::1/-/79ms GET /api/v1/orders?shop=%27A%27] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 34
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:17:24,105 ERROR 3200 [-/::1/-/81ms GET /api/v1/orders?shop=%27A%27] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 34
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:18:28,695 ERROR 3200 [-/::1/-/60001ms GET /api/v1/orders?shop=%27A%27] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:23:55,731 ERROR 3200 [-/undefined/-/60002ms GET /api/v1/orders] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:24:35,643 ERROR 3200 [-/undefined/-/60001ms GET /api/v1/order] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:25:17,647 ERROR 3200 [-/::1/-/60002ms GET /api/v1/orders] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:27:23,992 ERROR 3200 [-/::1/-/60001ms GET /api/v1/orders?shop=sdqss] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:29:25,054 ERROR 3200 [-/undefined/-/60002ms GET /api/v1/orders?shop=%27sdqss%27] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:29:47,266 ERROR 3200 [-/undefined/-/60002ms GET /api/v1/orders?shop=%27a%27] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:38:57,992 ERROR 3200 [-/undefined/-/60002ms GET /api/v1/orders?shop=%27sdqss%27] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:40:10,584 ERROR 3200 [-/undefined/-/60002ms GET /api/v1/orders?shop=%27%27] nodejs.Error: NJS-040: connection request timeout. Request exceeded queueTimeout of 60000
+    at Pool.onRequestTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:142:38)
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\pool.js:205:28)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+headerSent: true
+pid: 3200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 16:43:54,150 ERROR 6864 [-/::1/-/24ms GET /api/v1/orders?shop=%27A%27] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 34
+pid: 6864
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 17:16:04,103 ERROR 1824 [-/::1/-/140ms GET /api/v1/shops] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 14
+pid: 1824
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 17:34:48,244 ERROR 10772 [-/::1/-/12ms GET /api/v1/orders?shop=%27a%27] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 34
+pid: 10772
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 19:54:16,706 ERROR 15056 [-/::1/-/20ms GET /api/v1/shops] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 107
+pid: 15056
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 19:54:33,272 ERROR 15056 [-/::1/-/8ms GET /api/v1/shops] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 107
+pid: 15056
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 19:56:42,008 ERROR 15056 [-/::1/-/101ms GET /api/v1/shops] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 107
+pid: 15056
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 19:57:51,221 ERROR 2904 [-/::1/-/129ms GET /api/v1/shops] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 107
+pid: 2904
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 19:59:21,074 ERROR 4868 [-/::1/-/22ms GET /api/v1/shops] nodejs.Error: ORA-00905: 遺漏關鍵字
+Error: ORA-00905: 遺漏關鍵字
+errorNum: 905
+offset: 176
+pid: 4868
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 20:00:13,302 ERROR 9460 [-/::1/-/22ms GET /api/v1/shops] nodejs.Error: ORA-00905: 遺漏關鍵字
+Error: ORA-00905: 遺漏關鍵字
+errorNum: 905
+offset: 126
+pid: 9460
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 20:01:30,410 ERROR 4988 [-/::1/-/98ms GET /api/v1/shops] nodejs.Error: ORA-00933: SQL 命令的結束有問題
+Error: ORA-00933: SQL 命令的結束有問題
+errorNum: 933
+offset: 107
+pid: 4988
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 20:02:15,677 ERROR 13380 [-/::1/-/18ms GET /api/v1/shops] nodejs.Error: ORA-00905: 遺漏關鍵字
+Error: ORA-00905: 遺漏關鍵字
+errorNum: 905
+offset: 126
+pid: 13380
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 20:02:50,617 ERROR 1296 [-/::1/-/24ms GET /api/v1/shops] nodejs.Error: ORA-00905: 遺漏關鍵字
+Error: ORA-00905: 遺漏關鍵字
+errorNum: 905
+offset: 175
+pid: 1296
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 20:03:43,586 ERROR 9376 [-/::1/-/23ms GET /api/v1/shops] nodejs.Error: ORA-00905: 遺漏關鍵字
+Error: ORA-00905: 遺漏關鍵字
+errorNum: 905
+offset: 176
+pid: 9376
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 20:04:53,208 ERROR 12712 [-/::1/-/98ms GET /api/v1/shops] nodejs.Error: ORA-00905: 遺漏關鍵字
+Error: ORA-00905: 遺漏關鍵字
+errorNum: 905
+offset: 176
+pid: 12712
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 20:06:00,119 ERROR 14200 [-/::1/-/149ms GET /api/v1/shops] nodejs.Error: ORA-00905: 遺漏關鍵字
+Error: ORA-00905: 遺漏關鍵字
+errorNum: 905
+offset: 176
+pid: 14200
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 20:06:22,909 ERROR 5608 [-/::1/-/22ms GET /api/v1/shops] nodejs.Error: ORA-00905: 遺漏關鍵字
+Error: ORA-00905: 遺漏關鍵字
+errorNum: 905
+offset: 127
+pid: 5608
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 20:07:10,248 ERROR 14460 [-/::1/-/24ms GET /api/v1/shops] nodejs.Error: ORA-00905: 遺漏關鍵字
+Error: ORA-00905: 遺漏關鍵字
+errorNum: 905
+offset: 176
+pid: 14460
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 20:08:31,082 ERROR 3316 [-/::1/-/104ms GET /api/v1/shops] nodejs.Error: ORA-00905: 遺漏關鍵字
+Error: ORA-00905: 遺漏關鍵字
+errorNum: 905
+offset: 176
+pid: 3316
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 22:59:19,363 ERROR 12592 [-/::1/-/124ms GET /api/v1/staff] nodejs.TypeError: The "data" argument must be one of type string, Buffer, TypedArray, or DataView. Received type undefined
+    at Hmac.update (internal/crypto/hash.js:70:11)
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staffs.js:12:8)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:5:20)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+code: "ERR_INVALID_ARG_TYPE"
+pid: 12592
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 23:24:27,340 ERROR 5512 [-/::1/-/12ms GET /api/v1/staff?account=delivery1&password=delivery1&member=delivery] nodejs.TypeError: Assignment to constant variable.
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staffs.js:25:21)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:5:20)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 5512
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 23:24:45,587 ERROR 5512 [-/::1/-/74ms GET /api/v1/staff?account=delivery1&password=delivery1&member=delivery] nodejs.TypeError: Assignment to constant variable.
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staffs.js:25:21)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:5:20)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 5512
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 23:26:41,861 ERROR 4336 [-/::1/-/98ms GET /api/v1/staff?account=delivery1&password=delivery1&member=delivery] nodejs.TypeError: Assignment to constant variable.
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staffs.js:25:21)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:5:20)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 4336
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 23:27:59,824 ERROR 12704 [-/::1/-/13ms GET /api/v1/staff?account=delivery1&password=delivery1&member=delivery] nodejs.TypeError: Assignment to constant variable.
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staffs.js:25:20)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:5:20)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 12704
+hostname: LAPTOP-N880RBTF
+
+2019-11-09 23:29:46,578 ERROR 2540 [-/::1/-/112ms GET /api/v1/staff?account=delivery1&password=delivery1&member=delivery] nodejs.ReferenceError: tableName is not defined
+    at StaffService.findOne (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\staffs.js:25:20)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\staff\getStaff.js:5:20)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 2540
+hostname: LAPTOP-N880RBTF
+

@@ -1,0 +1,59 @@
+#buttontitle{
+width:150;
+height:60;
+background-color:#F0FFF0;
+}
+
+#buttonres{
+width:90;
+height:30;
+background-color:#A16B47;
+margin:1px;
+}
+
+
+body{
+padding: 50px;
+background-image: url("5976a8bb70e06.jpg");
+background-size: cover;
+background-color: wheat;
+}
+div{
+    font-size: 18px;
+    color:white;
+}
+table{
+    font-size: 24px;
+    background-color: wheat;
+    color:white;
+    letter-spacing: 3px;
+}
+input{
+    font-size: 20px;
+}
+a{
+    font-weight:bold;
+    font-size: 30px;
+    color:#D9B3B3;
+    font-family: 'Press Start 2P', cursive;
+    background-color: white;
+}
+
+p{
+    font-size: 35px;
+    color:whitesmoke;
+    font-weight:bold;
+}
+tr{
+    font-weight:bold;
+    background:rgba(55, 75, 52,0.68);
+
+}
+
+#big-button{
+width:300;
+height:200;
+background-color:#008080;
+margin:4px;
+font-size:30px;
+}

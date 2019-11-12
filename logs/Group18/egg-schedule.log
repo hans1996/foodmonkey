@@ -1,0 +1,27 @@
+2019-11-12 00:04:11,234 INFO 8040 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-12 00:04:11,235 INFO 8040 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-12 00:04:11,235 INFO 8040 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-12 00:08:31,498 INFO 16092 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-12 00:08:31,498 INFO 16092 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-12 00:08:31,498 INFO 16092 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-12 00:12:16,114 INFO 4556 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-12 00:12:16,114 INFO 4556 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-12 00:12:16,114 INFO 4556 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-12 00:12:21,082 INFO 2264 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-12 00:12:21,082 INFO 2264 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-12 00:12:21,082 INFO 2264 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-12 00:15:55,313 INFO 16304 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-12 00:15:55,313 INFO 16304 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-12 00:15:55,313 INFO 16304 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-12 00:35:36,599 INFO 13156 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-12 00:35:36,599 INFO 13156 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-12 00:35:36,599 INFO 13156 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-12 00:36:47,582 INFO 2932 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-12 00:36:47,582 INFO 2932 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-12 00:36:47,583 INFO 2932 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-12 16:53:06,064 INFO 8084 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-11-12 16:53:06,064 INFO 8084 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-11-12 16:53:06,064 INFO 8084 [egg-schedule]: register schedule C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-11-12 16:53:16,902 INFO 11528 [Timer] C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 41803106ms at 2019-11-13 04:30:00.008
+2019-11-12 16:53:16,902 INFO 11528 [Timer] C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 25603098ms at 2019-11-13 00:00:00.000
+2019-11-12 16:53:16,902 INFO 11528 [Timer] C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 25604098ms at 2019-11-13 00:00:01.000

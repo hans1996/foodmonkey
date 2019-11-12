@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <link rel=stylesheet type="text/css" href="./css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC|Press+Start+2P&display=swap" rel="stylesheet">
+    <title>FOODMONKEY</title>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <p id="username"  style ="float:right;">UserName：未登入</p>
+        </div>
+    </header>
+	
+	
+    <div class="w40leftblank" ></div>
+    
+    <div class="form-style w20div" style="color:white;">
+        <p>FOODMONKEY</p>
+        <fieldset >
+            <legend>登入</legend>
+            <label for="field1">
+                <span>帳號
+                    <span class="required">*</span>
+                </span>
+                <input type="text" id="account" class="input-field" />
+            </label>
+			<br>
+            <label for="field1">
+                <span>密碼
+                    <span class="required">*</span>
+                </span>
+                <input type="password" id="password" class="input-field" />
+            </label>
+			<br>
+			<span>身分
+                    <span class="required">*</span>
+                </span>
+			<select id="member">
+					<option value= 'customer'>顧客</option>
+					<option value= 'shops'>店家</option>
+					<option value= 'staffs'>外送員</option>
+			</select>
+			<br>
+            <label>
+                <input type="submit" onclick="login()"  value="登入" />
+            </label>
+            <div id="errormsg" style="color:red;" ></div>
+        </fieldset>
+    </div>
+    <script type="text/javascript" src="./js/jQuery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    
+    <script type="text/javascript" src="./js/header.js"></script>
+    <script type="text/javascript" src="./js/login.js"></script>
+</body>
+
+</html>

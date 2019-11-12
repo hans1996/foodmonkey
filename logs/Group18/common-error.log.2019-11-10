@@ -1,0 +1,983 @@
+2019-11-10 10:03:14,792 ERROR 14808 nodejs.ClusterClientNoResponseError: client no response in 34273763ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 14808
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 13:59:21,870 ERROR 11636 [-/::1/-/26ms GET /api/v1/staff?account=milkshop&password=milkshop&member=shops] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 11636
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:00:07,877 ERROR 11636 [-/::1/-/9ms GET /api/v1/staff?account=milkshop&password=milkshop&member=shops] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 11636
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:07:43,138 ERROR 18096 [-/::1/-/27ms GET /api/v1/staff?account=milkshop&password=milkshop&member=shops] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 18096
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:07:57,783 ERROR 18096 [-/::1/-/86ms GET /api/v1/staff?account=milkshop&password=milkshop&member=%22shops%22] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 18096
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:08:42,173 ERROR 18096 [-/::1/-/131ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 18096
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:08:44,292 ERROR 18096 [-/::1/-/85ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 18096
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:10:08,858 ERROR 15760 [-/::1/-/22ms GET /api/v1/staff?account=delivery1&password=delivery1&member=%27staffs%27] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 15760
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:10:13,715 ERROR 15760 [-/::1/-/33ms GET /api/v1/staff?account=delivery1&password=delivery1&member=%27staffs%27] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 15760
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:10:48,793 ERROR 3792 [-/::1/-/30ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 3792
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:10:51,726 ERROR 3792 [-/::1/-/252ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 3792
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:11:14,729 ERROR 15772 [-/::1/-/78ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 15772
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:37:00,234 ERROR 17896 [-/::1/-/100ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 17896
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:37:42,891 ERROR 17896 [-/::1/-/11ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 17896
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:39:18,627 ERROR 12552 [-/::1/-/41ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 12552
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:40:16,308 ERROR 12552 [-/::1/-/20ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 12552
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:40:25,701 ERROR 17340 [-/::1/-/37ms GET /api/v1/staff?account=delivery1&password=delivery1] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 17340
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:41:10,006 ERROR 2532 [-/::1/-/38ms GET /api/v1/staff?account=delivery1&password=delivery1] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 2532
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:41:38,543 ERROR 2532 [-/::1/-/24ms GET /api/v1/staff?account=delivery1&password=delivery1] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 2532
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:53:20,489 ERROR 4364 [-/::1/-/27ms GET /api/v1/staff?account=tttt12&password=qwe&member=staffs] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 4364
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:54:08,984 ERROR 7064 [-/::1/-/29ms GET /api/v1/staff?account=tttt12&password=qwe&member=staffs] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 7064
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:54:14,515 ERROR 7064 [-/::1/-/85ms GET /api/v1/staff?account=tttt12&password=qwe&member=staffs] nodejs.Error: ORA-00903: 表格名稱無效
+Error: ORA-00903: 表格名稱無效
+errorNum: 903
+offset: 20
+pid: 7064
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:54:49,028 ERROR 4340 [-/::1/-/24ms GET /api/v1/staff?account=tttt12&password=qwe&member=staffs] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 4340
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:54:58,403 ERROR 4340 [-/::1/-/90ms GET /api/v1/staff?account=tttt12&password=qwe&member=staffs] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 4340
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:55:34,895 ERROR 4340 [-/::1/-/19ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 4340
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:56:29,270 ERROR 4340 [-/::1/-/97ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 4340
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 14:56:38,343 ERROR 11108 [-/::1/-/31ms GET /api/v1/staff?account=delivery1&password=delivery1&member=staffs] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+pid: 11108
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 15:31:44,110 ERROR 10616 [-/::1/-/14ms GET /api/v1/staff?account=tea&password=tea&member=shop] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10616
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 15:31:48,147 ERROR 10616 [-/::1/-/139ms GET /api/v1/staff?account=tea&password=tea&member=shop] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10616
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 15:33:00,406 ERROR 10616 [-/::1/-/80ms GET /api/v1/staff?account=tea&password=tea&member=shop] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10616
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 15:33:01,803 ERROR 10616 [-/::1/-/100ms GET /api/v1/staff?account=tea&password=tea&member=shop] nodejs.Error: ORA-00942: 表格或視觀表不存在
+Error: ORA-00942: 表格或視觀表不存在
+errorNum: 942
+offset: 20
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 10616
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:14:32,016 ERROR 3344 [-/::1/-/26ms GET /api/v1/shopss] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 128
+pid: 3344
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:14:56,774 ERROR 3344 [-/::1/-/9ms GET /api/v1/shopss] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 128
+pid: 3344
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:15:24,930 ERROR 9788 [-/::1/-/19ms GET /api/v1/shop] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 128
+pid: 9788
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:15:29,312 ERROR 9788 [-/::1/-/91ms GET /api/v1/shop] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 128
+pid: 9788
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:16:32,936 ERROR 9612 [-/::1/-/6ms GET /api/v1/shopss] nodejs.ReferenceError: shop is not defined
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\shop\remainshops.js:4:58)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 9612
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:17:34,331 ERROR 11196 [-/::1/-/14ms GET /api/v1/shopss] nodejs.ReferenceError: shop is not defined
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\shop\remainshops.js:4:58)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 11196
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:19:02,773 ERROR 11196 [-/::1/-/1ms GET /api/v1/shopss?shop=milkshop] nodejs.ReferenceError: shop is not defined
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\shop\remainshops.js:4:58)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 11196
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:21:39,174 ERROR 15364 [-/::1/-/11ms GET /api/v1/shopss] nodejs.ReferenceError: shop is not defined
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\shop\remainshops.js:4:58)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 15364
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:21:43,103 ERROR 15364 [-/::1/-/1ms GET /api/v1/shopss] nodejs.ReferenceError: shop is not defined
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\shop\remainshops.js:4:58)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 15364
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:21:44,103 ERROR 15364 [-/::1/-/1ms GET /api/v1/shopss] nodejs.ReferenceError: shop is not defined
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\shop\remainshops.js:4:58)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 15364
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:22:12,446 ERROR 15364 [-/::1/-/1ms GET /api/v1/shopss] nodejs.ReferenceError: shop is not defined
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\shop\remainshops.js:4:58)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 15364
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:24:51,775 ERROR 16196 [-/::1/-/17ms GET /api/v1/shopss] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 128
+pid: 16196
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:24:56,676 ERROR 16196 [-/::1/-/76ms GET /api/v1/shopss] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 128
+pid: 16196
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:26:53,496 ERROR 8672 [-/::1/-/23ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 127
+pid: 8672
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:26:55,583 ERROR 8672 [-/::1/-/140ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 127
+pid: 8672
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:27:00,812 ERROR 8672 [-/::1/-/97ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 127
+pid: 8672
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:28:32,353 ERROR 5028 [-/::1/-/20ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 129
+pid: 5028
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:28:35,218 ERROR 5028 [-/::1/-/97ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 129
+pid: 5028
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:30:09,222 ERROR 17616 [-/::1/-/32ms GET /api/v1/shopss?shop=milkshop] nodejs.ReferenceError: member is not defined
+    at ShopService.remainshops (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\shops.js:24:86)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\shop\remainshops.js:4:22)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 17616
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:30:25,015 ERROR 17616 [-/::1/-/12ms GET /api/v1/shopss?shop=milkshop] nodejs.ReferenceError: member is not defined
+    at ShopService.remainshops (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\shops.js:24:86)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\shop\remainshops.js:4:22)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 17616
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:31:11,202 ERROR 17616 [-/::1/-/16ms GET /api/v1/shopss?shop=milkshop] nodejs.ReferenceError: member is not defined
+    at ShopService.remainshops (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\shops.js:24:86)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\shop\remainshops.js:4:22)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-bodyparser\index.js:86:5)
+
+pid: 17616
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:32:11,334 ERROR 232 [-/::1/-/44ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 129
+pid: 232
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:32:17,505 ERROR 232 [-/::1/-/163ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 129
+pid: 232
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 16:33:23,240 ERROR 15664 [-/::1/-/56ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00936: 遺漏表示式
+Error: ORA-00936: 遺漏表示式
+errorNum: 936
+offset: 150
+pid: 15664
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:06:03,179 ERROR 12380 [-/::1/-/4ms POST /api/v1/cart] nodejs.TypeError: ctx.service.carts.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:46)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 12380
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:08:45,066 ERROR 14920 [-/::1/-/19ms POST /api/v1/cart] nodejs.TypeError: ctx.service.carts.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:46)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 14920
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:10:30,678 ERROR 3400 [-/::1/-/3ms POST /api/v1/cart] nodejs.TypeError: ctx.service.carts.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:46)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 3400
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:11:21,945 ERROR 3400 [-/::1/-/1ms POST /api/v1/cart] nodejs.TypeError: ctx.service.carts.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:46)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 3400
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:13:44,943 ERROR 3400 [-/::1/-/1ms POST /api/v1/cart] nodejs.TypeError: ctx.service.carts.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:46)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 3400
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:13:52,060 ERROR 1260 [-/::1/-/18ms POST /api/v1/cart] nodejs.TypeError: Cannot read property 'createNew' of undefined
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 1260
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:14:44,272 ERROR 15140 [-/::1/-/15ms POST /api/v1/cart] nodejs.TypeError: ctx.service.cart.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 15140
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:15:44,053 ERROR 15140 [-/::1/-/1ms POST /api/v1/cart] nodejs.TypeError: ctx.service.cart.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 15140
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:15:50,149 ERROR 4324 [-/::1/-/14ms POST /api/v1/cart] nodejs.TypeError: ctx.service.cart.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 4324
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:16:34,663 ERROR 10184 [-/::1/-/12ms POST /api/v1/cart] nodejs.TypeError: ctx.service.cart.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 10184
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:17:35,445 ERROR 10184 [-/::1/-/2ms POST /api/v1/cart] nodejs.TypeError: ctx.service.cart.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 10184
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:17:42,706 ERROR 16196 [-/::1/-/12ms POST /api/v1/cart] nodejs.TypeError: ctx.service.cart.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 16196
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:20:45,525 ERROR 16196 [-/::1/-/1ms POST /api/v1/cart] nodejs.TypeError: ctx.service.cart.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 16196
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:21:16,962 ERROR 15436 [-/::1/-/14ms POST /api/v1/cart] nodejs.TypeError: ctx.service.cart.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 15436
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:23:02,261 ERROR 15436 [-/::1/-/2ms POST /api/v1/cart] nodejs.TypeError: ctx.service.cart.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 15436
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:23:14,047 ERROR 16800 [-/::1/-/17ms POST /api/v1/cart] nodejs.TypeError: ctx.service.cart.createNew is not a function
+    at Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:45)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:26)
+    at Object.callFn (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\koa-compose\index.js:36:12
+
+pid: 16800
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:40:45,189 ERROR 4968 [-/::1/-/14ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00904: "CART"."STORE": 無效的 ID
+Error: ORA-00904: "CART"."STORE": 無效的 ID
+errorNum: 904
+offset: 215
+pid: 4968
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:40:47,776 ERROR 4968 [-/::1/-/93ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00904: "CART"."STORE": 無效的 ID
+Error: ORA-00904: "CART"."STORE": 無效的 ID
+errorNum: 904
+offset: 215
+pid: 4968
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:41:45,834 ERROR 4968 [-/::1/-/95ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00904: "CART"."STORE": 無效的 ID
+Error: ORA-00904: "CART"."STORE": 無效的 ID
+errorNum: 904
+offset: 215
+pid: 4968
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 17:41:47,921 ERROR 4968 [-/::1/-/113ms GET /api/v1/shopss?shop=milkshop] nodejs.Error: ORA-00904: "CART"."STORE": 無效的 ID
+Error: ORA-00904: "CART"."STORE": 無效的 ID
+errorNum: 904
+offset: 215
+pid: 4968
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 20:36:05,754 ERROR 4212 [-/::1/-/151ms POST /api/v1/cart] nodejs.ReferenceError: id is not defined
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:27:23)
+
+pid: 4212
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 20:37:12,453 ERROR 4212 [-/::1/-/88ms POST /api/v1/cart] nodejs.ReferenceError: id is not defined
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:27:23)
+
+pid: 4212
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 20:47:58,577 ERROR 7424 [-/::1/-/398ms POST /api/v1/cart] nodejs.Error: NJS-003: invalid connection
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:31:27)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:22)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 7424
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 20:48:06,975 ERROR 7424 [-/::1/-/102ms POST /api/v1/cart] nodejs.Error: NJS-003: invalid connection
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:31:27)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:22)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 7424
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 20:48:52,489 ERROR 7424 [-/::1/-/92ms POST /api/v1/cart] nodejs.Error: NJS-003: invalid connection
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:31:27)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:22)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 7424
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 20:51:46,426 ERROR 1144 [-/::1/-/169ms POST /api/v1/cart] nodejs.Error: NJS-003: invalid connection
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:31:27)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:22)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 1144
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 20:51:49,758 ERROR 1144 [-/::1/-/96ms POST /api/v1/cart] nodejs.Error: NJS-003: invalid connection
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:31:27)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:22)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 1144
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 21:13:34,668 ERROR 11496 [-/::1/-/92ms POST /api/v1/cart] nodejs.Error: NJS-003: invalid connection
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:31:27)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:22)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 11496
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 21:14:51,303 ERROR 11496 [-/::1/-/86ms POST /api/v1/cart] nodejs.Error: NJS-003: invalid connection
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:31:27)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:22)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 11496
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 21:16:28,837 ERROR 11496 [-/::1/-/224ms POST /api/v1/cart] nodejs.Error: NJS-003: invalid connection
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\connection.js:169:17)
+    at C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:180:16
+    at new Promise (<anonymous>)
+    at Connection.execute (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\oracledb\lib\util.js:168:14)
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:31:27)
+    at async Object.v1 (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\controller\cart\postcart.js:6:22)
+    at async Object.objectControllerMiddleware (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-core\lib\loader\mixin\controller.js:115:14)
+    at async C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 11496
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 21:44:17,568 ERROR 17084 [-/::1/-/86ms POST /api/v1/cart] nodejs.ReferenceError: id is not defined
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:27:23)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17084
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 21:44:57,705 ERROR 17084 [-/::1/-/191ms POST /api/v1/cart] nodejs.ReferenceError: id is not defined
+    at CartService.createNew (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:27:23)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17084
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 22:59:58,054 ERROR 7052 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7052
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:18:43,795 ERROR 14236 [-/::1/-/94ms POST /api/v1/cart/address] nodejs.ReferenceError: id is not defined
+    at CartService.createNewAddress (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:61:23)
+
+pid: 14236
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:21:03,157 ERROR 14236 [-/::1/-/210ms POST /api/v1/cart/address] nodejs.ReferenceError: id is not defined
+    at CartService.createNewAddress (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:61:23)
+
+pid: 14236
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:24:58,155 ERROR 5192 [-/::1/-/91ms POST /api/v1/cart/address] nodejs.ReferenceError: id is not defined
+    at CartService.createNewAddress (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:61:23)
+
+pid: 5192
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:26:34,617 ERROR 15292 [-/::1/-/121ms POST /api/v1/cart/address] nodejs.ReferenceError: id is not defined
+    at CartService.createNewAddress (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:56:23)
+
+pid: 15292
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:27:31,855 ERROR 15692 [-/::1/-/125ms POST /api/v1/cart/address] nodejs.ReferenceError: id is not defined
+    at CartService.createNewAddress (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:56:23)
+
+pid: 15692
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:29:34,254 ERROR 9432 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9432
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:29:34,159 ERROR 7052 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7052
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:30:09,216 ERROR 10020 [-/::1/-/168ms POST /api/v1/cart/address] nodejs.ReferenceError: id is not defined
+    at CartService.createNewAddress (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:62:23)
+
+pid: 10020
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:30:20,955 ERROR 11540 [-/::1/-/124ms POST /api/v1/cart/address] nodejs.ReferenceError: id is not defined
+    at CartService.createNewAddress (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:62:23)
+
+pid: 11540
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:30:32,895 ERROR 11540 [-/::1/-/80ms POST /api/v1/cart/address] nodejs.ReferenceError: id is not defined
+    at CartService.createNewAddress (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:62:23)
+
+pid: 11540
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:37:29,817 ERROR 15324 [-/::1/-/130ms POST /api/v1/cart/address] nodejs.ReferenceError: id is not defined
+    at CartService.createNewAddress (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:62:23)
+
+pid: 15324
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:39:07,455 ERROR 14556 [-/::1/-/127ms POST /api/v1/cart/address] nodejs.ReferenceError: id is not defined
+    at CartService.createNewAddress (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:62:23)
+
+pid: 14556
+hostname: LAPTOP-N880RBTF
+
+2019-11-10 23:40:06,665 ERROR 14556 [-/::1/-/128ms POST /api/v1/cart/address] nodejs.ReferenceError: id is not defined
+    at CartService.createNewAddress (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\app\service\cart.js:62:23)
+
+pid: 14556
+hostname: LAPTOP-N880RBTF
+
+2019-11-11 00:00:01,009 ERROR 17036 nodejs.Error: [egg-logrotator] rename C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\logs\Group18\common-error.log, found exception: targetFile C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\logs\Group18\common-error.log.2019-11-10 exists!!!
+    at renameOrDelete (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\lib\rotator.js:63:17)
+    at async DayRotator.rotate (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\lib\rotator.js:28:9)
+    at async Object.task (C:\Users\user.LAPTOP-N880RBTF\Desktop\programming\project\Group18\node_modules\egg-logrotator\app\schedule\rotate_by_file.js:17:7)
+
+pid: 17036
+hostname: LAPTOP-N880RBTF
+

@@ -1,0 +1,164 @@
+<html>
+
+<head>
+    <link rel=stylesheet type="text/css" href="css/style.css">
+    <title>外送系統</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC|Press+Start+2P&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+
+    <header class="header">
+        <div style ="height:40">
+            <a id="logout" class="headerright" href="#" onclick="logout()">登出&emsp; </a>
+            <a id="username" class="headerright" style ="float:right;">UserName：</a>
+        </div>
+		<hr/>
+    </header>
+<div><button id="buttontitle" onclick="touch(1)">能接收單據</button>  <button id="buttontitle" onclick="touch(2)">已經接收</button>  </div>
+<hr/>
+<div id="content" style="width:1500px;">
+		<table id='table1' border=2 class="table" >
+		 <thead class="thead-dark"><tr >
+		 <th scope="col">編號	</th>
+		 <th scope="col">外送地點</th>
+		 <th scope="col">金額</th>
+		 </tr> </thead>
+		</table>
+</div>
+
+
+<script type="text/javascript" src="./js/jQuery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script src='./js/header.js'></script>
+<script>
+
+function respons(id){
+var nn2=readCookie('userName');
+$.ajax({
+  method: "PUT",
+  url: `http://localhost:7001/api/v1/transaction/delivery`,
+  data:{
+      "id": id,
+       "delivery":nn2
+  }
+}).done(data=>{touch(1);})
+}
+
+function fulltext(id){
+$.ajax({
+  method: "GET",
+  url: `http://localhost:7001/api/v1/cart`,
+  data:{ 
+      "id":id
+}
+}).done(data=>{
+var text=window.open("", "", "width=900,height=600") ;
+var inner=`<head><title>編號${id}取貨內容</title><head>`+'<body style="background:'+
+  '-webkit-radial-gradient(ellipse,white,#66DD00);'+
+  'background: -o-radial-gradient(ellipse,white,#003377);'+
+  'background: -moz-radial-gradient(ellipse,white,#003377);background: radial-gradient(ellipse,white,#003377);">'+
+  '<table style="color:honeydew;background-color:#666666;font-size:30px;letter-spacing: 3px;" border=2>'+
+  "<tr><th>店家</th><th>店家地址</th><th>品項</th><th>數量</th><th>金額</th></tr>";
+for (i = 0; i < data.rows.length; i++) {
+    inner=inner+"<tr>"
+  for(j = 0; j < data.rows[i].length; j++) {
+    inner=inner+"<th>"+data.rows[i][j]+"</th>"
+}
+   inner=inner+"</tr>"
+}
+   inner=inner+"</table>'</body>'"
+    text.document.write(inner);
+    text.blur();
+})
+}
+
+
+
+function gget(id){
+$.ajax({
+  method: "PUT",
+  url: `http://localhost:7001/api/v1/transaction/get`,
+  data:{
+      "id": id
+  }
+}).done(data=>{alert("取餐成功")})
+}
+
+function okl(id){
+$.ajax({
+  method: "PUT",
+  url: `http://localhost:7001/api/v1/transaction`,
+  data:{
+      "idName": id
+  }
+}).done(data=>{alert("送達成功")})
+}
+
+
+
+
+
+function touch(stat){
+var nn2=readCookie('userName');
+if(stat===1){
+$.ajax({
+  method: "GET",
+  url: `http://localhost:7001/api/v1/transaction?delivery=${nn2}`,
+}).done(data=>{
+var num = document.getElementById("table1").rows.length;
+ if(num >=2)
+ {
+ for (i = 0; i < (num-1); i++) {
+  document.getElementById("table1").deleteRow(-1);
+  }
+ }
+ var i , j;
+for (i = 0; i < data.rows.length; i++) {
+document.getElementById("table1").insertRow(i+1);
+  for(j = 0; j < data.rows[i].length; j++) {
+document.getElementById("table1").rows[i+1].insertCell(j).innerHTML=data.rows[i][j];
+}
+let tem =document.getElementById("table1").rows[i+1].cells[0].innerHTML;
+document.getElementById("table1").rows[i+1].insertCell(j).innerHTML=
+`<button id="buttonres" onclick="fulltext(${tem})" style="width:80px;height:40px"><font color="white">內容</font></button>
+ <button id="buttonres" onclick="respons(${tem})" style="width:80px;height:40px"><font color="white">接收</font></button>`;
+}})
+}else{
+$.ajax({
+  method: "GET",
+  url: `http://localhost:7001/api/v1/transaction/delivery?delivery=${nn2}`,
+}).done(data=>{
+var num = document.getElementById("table1").rows.length;
+ if(num >=2)
+ {
+ for (i = 0; i < (num-1); i++) {
+  document.getElementById("table1").deleteRow(-1);
+  }
+ }
+ var i , j;
+for (i = 0; i < data.rows.length; i++) {
+document.getElementById("table1").insertRow(i+1);
+  for(j = 0; j < data.rows[i].length; j++) {
+document.getElementById("table1").rows[i+1].insertCell(j).innerHTML=data.rows[i][j];
+}
+let tem =document.getElementById("table1").rows[i+1].cells[0].innerHTML;
+document.getElementById("table1").rows[i+1].insertCell(j).innerHTML=
+`<button id="buttonres" onclick="fulltext(${tem})" style="width:80px;height:40px"><font color="white">內容</font></button>
+ <button id="buttonres" onclick="gget(${tem})" style="width:80px;height:40px"><font color="white">取餐</font></button>
+ <button id="buttonres" onclick="okl(${tem})" style="width:80px;height:40px"><font color="white">送達</font></button>`;
+}})
+
+
+}
+
+}
+
+
+
+
+</script>
+</body>
+</html>
